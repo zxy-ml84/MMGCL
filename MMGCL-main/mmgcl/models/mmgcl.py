@@ -6,7 +6,7 @@ import random
 import torch.nn.functional as F
 
 from torch_scatter import scatter
-from common.abstract_recommender import GeneralRecommender
+from base.abstract_recommender import GeneralRecommender
 
 
 class MMGCL(GeneralRecommender):

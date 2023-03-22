@@ -4,7 +4,7 @@ Source code of our MMGCL
 # Multi-modal Graph Contrastive Learning for Micro-video Recommendation
 
 ## Citation
-If you want to use our codes and datasets in your research, please cite:
+If you want to use our codes in your research, please cite:
 ```
 @inproceedings{yi2022multi,
   title={Multi-modal graph contrastive learning for micro-video recommendation},

@@ -6,7 +6,7 @@ TIME_FIELD: timestamp
 
 filter_out_cod_start_users: True
 
-inter_file_name: 'sports.inter'
+inter_file_name: 'tiktok_full.txt'
 
 # name of features
 vision_feature_file: 'image_feat.npy'

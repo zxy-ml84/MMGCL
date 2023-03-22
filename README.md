@@ -35,5 +35,5 @@ You can find the full version of recommendation datasets via Tiktok, and Moviele
 
 
 ## Update:
-We tend to submit this to the multi modal recommendation library shortly.
+We tend to submit this version to the multi modal recommendation library shortly.
 

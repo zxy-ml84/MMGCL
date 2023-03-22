@@ -1,0 +1,14 @@
+latent_dim: 64
+layer_num: 3
+reg: [0.00011]
+ssl_task: 'ED+MM+CN'
+learning_rate: [0.001]
+weight_decay: 1e-4
+ssl_alpha: [0.4]
+ssl_temp: [0.2]
+dropout_rate: 0.05
+temp: 0.2
+init: 'xavier'
+adj_type: 'pre'
+hyper_parameters: ["learning_rate", "ssl_temp", "ssl_alpha", "reg"]
+ mask_p: [0.4,0.4,0.2]

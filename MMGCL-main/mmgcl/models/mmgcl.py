@@ -93,10 +93,8 @@ class MMGCL(GeneralRecommender):
         self.v_emb_u, self.v_emb_i = self.sgl_encoder(users_emb, self.v_dense_emb)
 
         if self.config["dataset"] == "kwai":
-            user = self.read_user(
-                torch.cat([self.i_emb_u, self.v_emb_u]), dim=1)
-            item = self.read_item(
-                torch.cat([self.i_emb_i, self.v_emb_i]))
+            user = self.read_user(torch.cat([self.i_emb_u, self.v_emb_u],dim=1))
+            item = self.read_user(torch.cat([self.i_emb_u, self.v_emb_i],dim=1))
         elif self.config["dataset"] == "amazon":
             if self.t_feat is not None:
                 self.t_dense_emb = self.t_dense(self.t_feat)  # t=>id
